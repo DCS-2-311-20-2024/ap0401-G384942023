@@ -87,7 +87,7 @@ function init() {
     speed = 10;
     if(life <= 0){
       life=3;
-      makeBricks();
+      resetBrick();
       score=0;
     }
   }
